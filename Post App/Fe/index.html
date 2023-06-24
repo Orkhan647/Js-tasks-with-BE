@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .post {
+        max-width: 200px;
+        border: 1 px solid gray;
+      }
+      .postHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .author{
+        font-size: 22px;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="post">
+      <div class="postHeader">
+        <p class="author">ali</p>
+        <div>
+          <button onclick="alert('edit')">🖋</button>
+          <button onclick="alert('delete')">❌</button>
+        </div>
+      </div>
+      <h6>title</h6>
+      <img
+        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.entrepreneur.com%2Fleadership%2Fwant-to-learn-how-to-code-for-free-discover-12-low-cost%2F250323&psig=AOvVaw1Yww_f940g3QtLcX5eCZGH&ust=1687722136810000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPiIyIXV3P8CFQAAAAAdAAAAABAG"
+        alt=""
+      />
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
